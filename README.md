@@ -23,7 +23,7 @@ cd finsolve-ai
 Backend setup:
 cd src/backend
 pip install -r requirements.txt
-# Set environment variables (e.g: DATABASE_URL)
+Set environment variables (e.g: DATABASE_URL)
 uvicorn endpoints:app --reload
 
 Frontend setup:
@@ -38,7 +38,7 @@ Login with role-based credentials (e.g., demo users in LoginForm.js).
 Chat: Ask questions, upload files, view responses. Example: Upload financial CSV, query "Q4 revenue".
 
 
-Features
+Features:
 Role-based access control for 6 user types.
 Multilingual query detection and translation.
 GPU-optimized RAG for document search.
