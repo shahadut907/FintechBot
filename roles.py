@@ -1,7 +1,3 @@
-"""
-Enhanced Role-Based Access Control (RBAC) Configuration for FinSolve
-Clean version with proper imports and structure
-"""
 from enum import Enum
 from typing import Set, List, Dict, Any
 from dataclasses import dataclass
